@@ -8,5 +8,11 @@
     "meteor-node-stubs": "~0.2.0",
     "react": "^15.2.0",
     "react-dom": "^15.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.0.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-meteor": "^3.6.0",
+    "eslint-plugin-react": "^5.2.2"
   }
 }
