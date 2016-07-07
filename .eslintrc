@@ -1,8 +1,11 @@
 {
+  "plugins": ["react"],
   "parser": "babel-eslint",
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "meteor": true,
+    "commonjs": true
   },
   "ecmaFeatures": {
     "arrowFunctions": true,
@@ -166,6 +169,6 @@
     "space-before-blocks": 2,        // http://eslint.org/docs/rules/space-before-blocks
     "space-before-function-paren": [2, "never"], // http://eslint.org/docs/rules/space-before-function-paren
     "space-infix-ops": 2,            // http://eslint.org/docs/rules/space-infix-ops
-    "spaced-comment": 2,        // http://eslint.org/docs/rules/spaced-comment
+    "spaced-comment": 2        // http://eslint.org/docs/rules/spaced-comment
   }
 }
